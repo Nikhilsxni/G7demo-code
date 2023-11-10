@@ -19,7 +19,8 @@ ax.barh(name, price)
 
 # Add Plot Title
 plt.title('SPORTS CAR PRICES', fontweight = 'heavy', fontsize = 15, color='red')
-plt.xticks(np.arange(0, 8, step=1))
+plt.xticks(np.arange(0, 8, step=1)
+plt.xlabel("(in USD)",fontweight = 'bold', fontsize = 12)
 # Show Plot
 plt.show()
 
